@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 function Contact() {
   return (
@@ -9,6 +10,7 @@ function Contact() {
         <p>malvinaXXX@mail</p>
         <p>acá podemos poner el ícono de instagram</p>
         <p>el whatsapp podría ir como iframe</p>
+      
       </div>
       <div>acá va el iframe de google maps pero no tengo la dirección</div>
     </div>

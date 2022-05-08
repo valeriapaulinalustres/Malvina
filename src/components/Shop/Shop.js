@@ -1,13 +1,19 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
+import ItemListContainer from '../ItemListContainer/ItemListContainer';
+import './shop.css';
 
 function Shop() {
 
   const categories = [
-    { categoryName: "Interior", route: "categories/interior", id: 1 },
-    { categoryName: "Anuales", route: "categories/anuales", id: 2 },
-    { categoryName: "Perennes", route: "categories/perennes", id: 3 },
-    { categoryName: "Cactus", route: "categories/cactus", id: 4 }
+    { categoryName: "Remeras", route: "categories/remeras", id: 1 },
+    { categoryName: "Camisas", route: "categories/camisas", id: 2 },
+    { categoryName: "Buzos", route: "categories/buzos", id: 3 },
+    { categoryName: "Sweaters", route: "categories/sweaters", id: 4 },
+    { categoryName: "Bermudas", route: "categories/bermudas", id: 5 },
+    { categoryName: "Pantalones", route: "categories/pantalones", id: 6 },
+    { categoryName: "Jeans", route: "categories/jeans", id: 7 },
+    { categoryName: "Camperas", route: "categories/camperas", id: 8 },
 ]
 
 
@@ -37,6 +43,7 @@ function Shop() {
                         </NavLink>)
                 })}
             </nav>
+            <ItemListContainer />
     </div>
   )
 }

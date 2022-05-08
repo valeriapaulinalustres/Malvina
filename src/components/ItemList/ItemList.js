@@ -1,9 +1,18 @@
-import React from 'react'
+import Item from '../Item/Item.js';
+import './itemList.css';
 
-function ItemList({filtered}) {
+export default function ItemList({ filtered }) {
+
   return (
-    <div>ItemList</div>
+    <div className=' card-container'>
+      {filtered.map((item, index) => (
+        <Item
+          key={index}
+          title={item.title}
+          price={item.price}
+          image={item.image}
+          id={item.id} />
+      ))}
+    </div>
   )
 }
-
-export default ItemList
