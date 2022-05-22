@@ -5,19 +5,23 @@ import './navBar.css';
 
 function NavBar() {
   return (
-    <div>
-      <nav>
-        <NavLink to="/">HOME</NavLink>
-        <NavLink to="/shop">SHOP</NavLink>
-        <NavLink to="/about">ABOUT US</NavLink>
-        <NavLink to="/contact">CONTACT</NavLink>
+    <div className= 'navBar' >
+      
+      <nav className= 'opcionesMenu'>
+        <NavLink to="/" className= 'opcionesMenuSeccion'>HOME</NavLink>
+        <NavLink to="/shop" className= 'opcionesMenuSeccion'>SHOP</NavLink>
+        <NavLink to="/about" className= 'opcionesMenuSeccion'>ABOUT US</NavLink>
+        <NavLink to="/contact" className= 'opcionesMenuSeccion'>CONTACT</NavLink>        
+
       </nav>
-      <nav>
+      
+      <nav className= 'menuMalvina'>
         <NavLink to="/">
-          <h1>MALVINA</h1>
+          <h1 className= 'opcionesMenuMalvina'>MALVINA</h1>
         </NavLink>
 
       </nav>
+
     </div>
   )
 }
