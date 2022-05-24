@@ -7,11 +7,11 @@ function NavBar() {
     return (
         <nav className='footer'>
             <div>
-                <NavLink to="/">HOME</NavLink>
+                <NavLink to="/" className='seccionesFooter' >HOME</NavLink>
             </div>
             <div>
-                <NavLink to="/shop">SHOP</NavLink>
-                <NavLink to="/shop/categories/remeras">Remeras</NavLink>
+                <NavLink to="/shop" className='seccionesFooter'>SHOP</NavLink>
+                <NavLink to="/shop/categories/remeras" className='shopSeccion'>Remeras</NavLink>
                 <NavLink to="/shop/categories/camisas">Camisas</NavLink>
                 <NavLink to="/shop/categories/buzos">Buzos</NavLink>
                 <NavLink to="/shop/categories/sweaters">Sweaters</NavLink>
@@ -21,12 +21,12 @@ function NavBar() {
                 <NavLink to="/shop/categories/camperas">Camperas</NavLink>
             </div>
             <div>
-                <NavLink to="/about">ABOUT US</NavLink>
-                <h2>Quienes somos</h2>
+                <NavLink to="/about" className='seccionesFooter'>ABOUT US</NavLink>
+                
             </div>
             <div>
-                <NavLink to="/contact">CONTACT</NavLink>
-                <h2>malvinaXXX@mail</h2>
+                <NavLink to="/contact" className='seccionesFooter'>CONTACT</NavLink>
+                <h2 className='seccionesFooter'>malvinaXXX@mail</h2>
             </div>
         </nav>
     )
