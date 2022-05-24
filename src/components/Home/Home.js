@@ -4,7 +4,8 @@ import { db } from "../firebase/firebase.js";
 import { getDocs, collection, query, where } from "firebase/firestore";
 import { useEffect, useState } from 'react';
 import ItemList from "../ItemList/ItemList";
-import './home.css'
+import './home.css';
+import Carousel from "../Carousel/Carousel"
 
 
 function Home() {
@@ -42,6 +43,7 @@ useEffect(() => {
   return (
     <div>
       <h2>Promociones</h2>
+      <Carousel />
                 {loading
                     ? (<Loading />)
                     : (<ItemList filtered={sales} />)
