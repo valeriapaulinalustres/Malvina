@@ -1,3 +1,19 @@
+*
 .footer{
+    padding: 35px;
     background-color: black;
+}
+
+.seccionesFooter{
+    display: flex;
+    flex-wrap: wrap;
+    /*position: relative;
+    display: inline-block;*/
+    text-align: left;
+    padding: 2%;
+    margin-top: 1%;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: white;
 }

@@ -15,12 +15,9 @@ function NavBar() {
 
       </nav>
       
-      <nav className= 'menuMalvina'>
-        <NavLink to="/">
-          <h1 className= 'opcionesMenuMalvina'>MALVINA</h1>
-        </NavLink>
+      
 
-      </nav>
+      
 
     </div>
   )

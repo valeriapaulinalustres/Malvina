@@ -18,16 +18,18 @@
     color: white;
 }
 
+/*
 .menuMalvina{
     position:relative ;
     text-align: left;
 }
-
+*/
+/*
 .opcionesMenuMalvina{
     text-decoration: none;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
     margin-left: 7%;
-    margin-top: 0%; /*si le pongp margin-top: -2% queda todo alineado, el tema es que igual para hacer click en las otras palabras (home, contact, etc...) va a quedar corrido, no sobre la misma palabra, sino 2% más abajo*/
-}
+    margin-top: 0%; /*si le pongp margin-top: -2% queda todo alineado, el tema es que igual para hacer click en las otras palabras (home, contact, etc...) va a quedar corrido, no sobre la misma palabra, sino 2% más abajo
+} */
