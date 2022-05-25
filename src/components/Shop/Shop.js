@@ -16,6 +16,7 @@ function Shop() {
 
 return (
   <div>
+    <div className='logo'></div>
      <nav className='containerNavBar'>
               {categories.map((element, index) => {
                   return (

@@ -6,6 +6,7 @@ function ItemDetail({ item }) {
 
     return (
         <div>
+            <div className='logo'></div>
             <div className='imagenes'>
                 <div className='imagenPrincipal'>
                     <img src={item.image} width="50%" />
