@@ -11,14 +11,11 @@ function NavBar() {
             </div>
             <div className='seccionesFooter'>
                 <NavLink to="/shop" className='seccionesFooterLink'>SHOP</NavLink>
-                <NavLink to="/shop/categories/remeras"  className='seccionShop'>Remeras</NavLink>
                 <NavLink to="/shop/categories/camisas" className='seccionShop'>Camisas</NavLink>
-                <NavLink to="/shop/categories/buzos" className='seccionShop'>Buzos</NavLink>
-                <NavLink to="/shop/categories/sweaters" className='seccionShop'>Sweaters</NavLink>
-                <NavLink to="/shop/categories/bermudas" className='seccionShop'>Bermudas</NavLink>
-                <NavLink to="/shop/categories/pantalones" className='seccionShop'>Pantalones</NavLink>
                 <NavLink to="/shop/categories/jeans" className='seccionShop'>Jeans</NavLink>
-                <NavLink to="/shop/categories/camperas" className='seccionShop'>Camperas</NavLink>
+                <NavLink to="/shop/categories/bermudas" className='seccionShop'>Bermudas</NavLink>
+                <NavLink to="/shop/categories/abrigos" className='seccionShop'>Abrigos</NavLink>
+                <NavLink to="/shop/categories/gorros" className='seccionShop'>Gorros</NavLink>
             </div>
             <div className='seccionesFooter'>
                 <NavLink to="/about" className='seccionesFooterLink'>ABOUT US</NavLink>

@@ -6,14 +6,12 @@ import './shop.css';
 function Shop() {
 
   const categories = [
-    { categoryName: "Remeras", route: "categories/remeras", id: 1 },
-    { categoryName: "Camisas", route: "categories/camisas", id: 2 },
-    { categoryName: "Buzos", route: "categories/buzos", id: 3 },
-    { categoryName: "Sweaters", route: "categories/sweaters", id: 4 },
-    { categoryName: "Bermudas", route: "categories/bermudas", id: 5 },
-    { categoryName: "Pantalones", route: "categories/pantalones", id: 6 },
-    { categoryName: "Jeans", route: "categories/jeans", id: 7 },
-    { categoryName: "Camperas", route: "categories/camperas", id: 8 },
+    { categoryName: "Camisas", route: "categories/camisas", id: 1 },
+    { categoryName: "Jeans", route: "categories/jeans", id: 2 },
+    { categoryName: "Bermudas", route: "categories/bermudas", id: 3 },
+    { categoryName: "Abrigos", route: "categories/abrigos", id: 4 },
+    { categoryName: "Gorros", route: "categories/gorros", id: 5 },
+
 ]
 
 
