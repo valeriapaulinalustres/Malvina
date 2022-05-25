@@ -22,7 +22,7 @@ function NavBar() {
             </div>    
             <div className='seccionesFooter'>
                 <NavLink to="/contact" className='seccionesFooterLink'>CONTACT</NavLink>
-                <h2 className='seccionShop'>malvinaXXX@mail</h2>
+                <h2 className='seccionShop'>malvina.uruguay@gmail.com</h2>
             </div>
 
             <div className='seccionesFooter'>
