@@ -21,4 +21,9 @@
 }
 .slogan{
     margin-bottom: 2%;
+    text-align: center;
+}
+.carousel{
+    width: 50%;
+    margin: auto;
 }

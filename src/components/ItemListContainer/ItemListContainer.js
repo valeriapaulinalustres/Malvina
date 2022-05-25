@@ -47,7 +47,7 @@ useEffect(() => {
 
   return (
     <div className='container'>
-      <h2>{generalTitle}: {categoryId}</h2>
+     
                 {loading
                     ? (<Loading />)
                     : (<ItemList filtered={products} />)
@@ -57,3 +57,5 @@ useEffect(() => {
 }
 
 export default ItemListContainer
+
+/* <h2 className='general-title'>{generalTitle}: {categoryId}</h2>*/

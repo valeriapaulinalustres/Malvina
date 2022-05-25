@@ -1,6 +1,6 @@
 *
 .logo{
-    /*content: url(/src/components/img/logo_small.png);*/
+    content: url(/public/img/logo_small.png);
     /*display: flex;*/
     position: relative;
 
@@ -22,7 +22,8 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     font-size: x-large;
-    margin: 10px;
+    margin: 15px;
+    
     
 }
 /*acá falta dar espacio entre las palabras del navBar*/

@@ -6,7 +6,7 @@ function About() {
     <div>
       <div className='logo'></div>
       <h2 className='titulo'>NUESTRA HISTORIA</h2>
-      <p className='texto'>Lorem no me funciona en react, jaja </p>
+      <p className='texto'>Malvina es un emprendimiento de indumentaria masculina radicado en Uruguay.</p>
     </div>
   )
 }

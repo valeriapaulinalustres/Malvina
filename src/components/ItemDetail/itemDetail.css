@@ -1,7 +1,7 @@
 *
 
 .logo{
-    /*content: url(/src/components/img/logo_small.png);*/
+    content: url(/public/img/logo_small.png);
     /*display: flex;*/
     position: relative;
 
