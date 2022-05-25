@@ -9,7 +9,7 @@ function NavBar() {
             <div className='seccionesFooter'>
                 <NavLink to="/" className='seccionesFooterLink' >HOME</NavLink>
             </div>
-            <div className='seccionesFooter'>
+            <div className='seccionesFooter'> 
                 <NavLink to="/shop" className='seccionesFooterLink'>SHOP</NavLink>
                 <NavLink to="/shop/categories/remeras"  className='seccionShop'>Remeras</NavLink>
                 <NavLink to="/shop/categories/camisas" className='seccionShop'>Camisas</NavLink>
@@ -29,7 +29,7 @@ function NavBar() {
             </div>
 
             <div className='seccionesFooter'>
-                <NavLink to="/" className='malvina'> MALVINA </NavLink>
+                <NavLink to="/home" className='malvina'> MALVINA </NavLink>
             </div>
         </nav>
     )

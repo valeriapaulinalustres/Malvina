@@ -4,7 +4,8 @@ import { db } from "../firebase/firebase.js";
 import { getDocs, collection, query, where } from "firebase/firestore";
 import { useEffect, useState } from 'react';
 import ItemList from "../ItemList/ItemList";
-import './home.css'
+import './home.css';
+
 
 
 function Home() {
@@ -40,12 +41,15 @@ useEffect(() => {
 
 
   return (
-    <div>
-      <h2>Promociones</h2>
+    <div className='home'>
+      <div className='logo'></div>
+      <h2 className='slogan'>UNA MALVINA, MIL USOS</h2>
+      
                 {loading
                     ? (<Loading />)
                     : (<ItemList filtered={sales} />)
                 }
+      
     </div>
   )
 }

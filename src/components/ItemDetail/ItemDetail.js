@@ -6,19 +6,22 @@ function ItemDetail({ item }) {
 
     return (
         <div>
-            <div>
-                <img src={item.image} width="100%" />
+            <div className='imagenes'>
+                <div className='imagenPrincipal'>
+                    <img src={item.image} width="50%" />
+                </div>
+                    <div className='imagenSecundaria'>
+                        <img src={item.thumbnailOne} width="15%" className='imagenPequeña'/>
+                        <img src={item.thumbnailTwo} width="15%" className='imagenPequeña' />
+                        <img src={item.thumbnailThree} width="15%" className='imagenPequeña' />
+                    </div>
             </div>
-            <div>
-                <img src={item.thumbnailOne} width="30%" />
-                <img src={item.thumbnailTwo} width="30%" />
-                <img src={item.thumbnailThree} width="30%" />
-            </div>
-            <div>
-                <h2>{item.title}</h2>
-                <p>Descripción: {item.description}</p>
-                <h3>Talles: {item.size}</h3>
-                <h3>Precio: ${item.price}</h3>
+
+            <div className='texto'>
+                <h2 className='titulo'>{item.title}</h2>
+                <p className='descripcion'>Descripción: {item.description}</p>
+                <h3 className='descripcion'>Talles: {item.size}</h3>
+                <h3 className='masDetalles'>Valor: $UY {item.price}</h3>
             </div>
         </div>
     )

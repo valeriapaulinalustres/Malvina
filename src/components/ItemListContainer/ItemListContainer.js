@@ -46,7 +46,7 @@ useEffect(() => {
 
 
   return (
-    <div>
+    <div className='container'>
       <h2>{generalTitle}: {categoryId}</h2>
                 {loading
                     ? (<Loading />)

@@ -1,10 +1,12 @@
 import React from 'react'
+import './about.css';
 
 function About() {
   return (
     <div>
-      <h2>Nuestra historia</h2>
-      <p>Lorem no me funciona en react, jaja </p>
+      <div className='logo'></div>
+      <h2 className='titulo'>NUESTRA HISTORIA</h2>
+      <p className='texto'>Lorem no me funciona en react, jaja </p>
     </div>
   )
 }
