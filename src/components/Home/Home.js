@@ -44,6 +44,8 @@ useEffect(() => {
     <div>
       <h2>Promociones</h2>
       <Carousel />
+      <div className='logo'></div>
+      <h2 className='slogan'>UNA MALVINA, MIL USOS</h2>
                 {loading
                     ? (<Loading />)
                     : (<ItemList filtered={sales} />)

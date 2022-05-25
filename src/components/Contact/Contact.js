@@ -11,10 +11,12 @@ function Contact() {
   return (
     <div>
       <div>
+      <div className='logo'></div>
         <h2>Contacto</h2>
         <p>Ante cualquier duda o consulta podés comunicarte con nosotros a través de:</p>       
         <a href="https://www.instagram.com/valeria_paulina_photography/"><AiFillInstagram className='instagramIcon' /></a>
         <p><MailIcon className='mailIcon' />malvina.uruguay@gmail.com</p>
+        
         <div>
           <RiWhatsappFill className='waIcon' />
           <p>tel: 555-777</p>
