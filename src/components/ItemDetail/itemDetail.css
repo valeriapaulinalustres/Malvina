@@ -72,3 +72,31 @@
     color: black;
     margin-top: 6%;
 }
+
+@media only screen and (max-width:500px) {
+
+.ItemDetail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes{
+    float: none;
+    margin: auto;
+    align-self: center;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    float: none;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+ 
+    
+}
+.logo{
+    margin-left: 0%;
+}
+}

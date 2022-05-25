@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 function ItemDetail({ item }) {
 
     return (
-        <div>
+        <div className='ItemDetail-container'>
             <div className='logo'></div>
             <div className='imagenes'>
                 <div className='imagenPrincipal'>

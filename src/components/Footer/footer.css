@@ -37,3 +37,17 @@
     font-size: xx-large ;
     color: white;
 }
+
+@media only screen and (max-width:500px) {
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.malvina{
+    margin-left: 100%;
+   
+}
+
+}
