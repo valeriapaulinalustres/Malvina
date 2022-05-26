@@ -8,6 +8,7 @@ import About from './components/About/About';
 import Home from './components/Home/Home';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import "./app.css"
 
 
 

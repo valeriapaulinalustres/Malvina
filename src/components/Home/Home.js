@@ -41,7 +41,7 @@ useEffect(() => {
 
 
   return (
-    <div>
+    <div className='home-container'>
      
       
       <Carousel className="carousel"/>

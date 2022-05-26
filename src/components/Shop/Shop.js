@@ -2,6 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 import ItemListContainer from '../ItemListContainer/ItemListContainer';
 import './shop.css';
+import {gsap} from 'gsap'
 
 function Shop() {
 
@@ -13,6 +14,13 @@ function Shop() {
     { categoryName: "Gorros", route: "categories/gorros", id: 5 },
 
 ]
+const mouseEnterShop = ({ currentTarget }) => {
+  gsap.to(currentTarget, { color: "#f4e04d" });
+};
+const mouseLeaveShop = ({ currentTarget }) => {
+  gsap.to(currentTarget, { color: "#7b6b6f" });
+};
+
 
 
   return (
@@ -29,16 +37,21 @@ function Shop() {
                                 isActive
                                     ? {
                                         color: '#fff',
-                                        background: '#A2D5AB',
+                                        background: '#d1dae3',
                                         borderRadius: 8,
                                         paddingLeft: 6,
                                         paddingRight: 6,
                                     }
                                     : {
-                                        color: '#39AEA9',
+                                        color: '#7b6b6f',
                                         background: '#ffffff'
                                     }
-                            }>{element.categoryName}
+                            }
+                            onMouseEnter={mouseEnterShop}
+                            onMouseLeave={mouseLeaveShop}
+                           
+                            
+                            >{element.categoryName}
                         </NavLink>)
                 })}
             </nav>

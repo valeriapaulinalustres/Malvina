@@ -26,6 +26,10 @@
     
     
 }
+.navbar-link:hover{
+    background-color: var(--celeste);
+}
+
 /*acá falta dar espacio entre las palabras del navBar*/
 @media only screen and (max-width:500px) {
     .navbar-link{

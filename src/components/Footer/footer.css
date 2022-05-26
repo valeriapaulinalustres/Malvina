@@ -20,6 +20,10 @@
     color: white;
 }
 
+.seccionesFooterLink:hover{
+    color: var(--amarillo);
+}
+
 .seccionShop{
     display:table-footer-group;
     text-decoration: none;
@@ -27,6 +31,11 @@
     font-size:medium ;
     color: white;
     
+}
+
+.seccionShop:hover{
+    color: var(--amarillo);
+
 }
 
 .malvina{

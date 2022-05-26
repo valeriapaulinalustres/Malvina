@@ -26,4 +26,9 @@
 .carousel{
     width: 50%;
     margin: auto;
+   
+}
+
+.home-container{
+    margin-top: 40px;
 }

@@ -2,7 +2,7 @@
    content: url(/public/img/logo_small.png);
     
 
-    width: 18%;
+    width: 15%;
     margin-top: 3%;
    
     margin-bottom: 2%;
@@ -11,17 +11,24 @@
 }
 
 .instagramIcon{
-    color: red;
+    color: var(--amarillo);
     width: 50px;
     height: 50px;
+}
+.instagramIcon:hover{
+    color:var(--celeste);
 }
 .mailIcon{
-    color:green;
-}
-.waIcon{
-    color: greenyellow;
+    color:var(--amarillo);
     width: 50px;
     height: 50px;
+}
+.mailIcon:hover{
+    color:var(--celeste);
+}
+
+.map:hover{
+  transform: scale(1.1);
 }
 .contact-container{
     display: flex;
@@ -32,10 +39,36 @@
     
    
 }
+.frame{
+    box-shadow:  10px 10px 10px 10px #d9d9d9,
+             5px 5px 5px  #ffffff;
+}
 
+.address{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+    
+    margin-top: 10px;
+    
+}
 .contact{
     display: flex;
     flex-direction: column;
+    
+}
+.contact-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: black;
+    
+   
+}
+.titulo-contacto{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #7B6B6F;
+    text-align: left;
     
 }
 .margin-contact{
@@ -43,6 +76,9 @@
     margin-right: 10%;
 }
 
+.center{
+    text-align: center;
+}
 @media only screen and (max-width:500px) {
     .contact-container{
         
