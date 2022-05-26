@@ -15,47 +15,39 @@ function ItemListContainer() {
   const { categoryId } = useParams();
 
 
-
-const generalTitle = "Catálogo de Productos";
-
-
-
-useEffect(() => {
-  const productsCollection = collection(db, "MalvinaCollection");
-  const q = categoryId !== undefined ? query(productsCollection, where("category", "==", categoryId)) : productsCollection;
-  getDocs(q)
+  useEffect(() => {
+    const productsCollection = collection(db, "MalvinaCollection");
+    const q = categoryId !== undefined ? query(productsCollection, where("category", "==", categoryId)) : productsCollection;
+    getDocs(q)
       .then((result) => {
-          const docs = result.docs
-          const lista = docs.map(producto => {
-              const id = producto.id;
-              const product = {
-                  id,
-                  ...producto.data()
-              }
-              return product;
-          })
-          setProducts(lista)
+        const docs = result.docs
+        const lista = docs.map(producto => {
+          const id = producto.id;
+          const product = {
+            id,
+            ...producto.data()
+          }
+          return product;
+        })
+        setProducts(lista)
       })
       .catch(() => {
-          console.log("error")
+        console.log("error")
       })
       .finally(() => {
-          setLoading(false)
+        setLoading(false)
       })
-}, [categoryId]);
+  }, [categoryId]);
 
 
   return (
     <div className='container'>
-     
-                {loading
-                    ? (<Loading />)
-                    : (<ItemList filtered={products} />)
-                }
+      {loading
+        ? (<Loading />)
+        : (<ItemList filtered={products} />)
+      }
     </div>
   )
 }
 
 export default ItemListContainer
-
-/* <h2 className='general-title'>{generalTitle}: {categoryId}</h2>*/
