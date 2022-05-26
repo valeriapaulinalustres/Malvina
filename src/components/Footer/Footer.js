@@ -19,12 +19,11 @@ function NavBar() {
             </div>
             <div className='seccionesFooter'>
                 <NavLink to="/about" className='seccionesFooterLink'>ABOUT US</NavLink>
-            </div>    
+            </div>
             <div className='seccionesFooter'>
                 <NavLink to="/contact" className='seccionesFooterLink'>CONTACT</NavLink>
                 <h2 className='seccionShop'>malvina.uruguay@gmail.com</h2>
             </div>
-
             <div className='seccionesFooter'>
                 <NavLink to="/" className='malvina'> MALVINA </NavLink>
             </div>

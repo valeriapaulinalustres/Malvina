@@ -1,5 +1,4 @@
 import './itemDetail.css';
-import { NavLink } from 'react-router-dom';
 
 
 function ItemDetail({ item }) {
@@ -12,9 +11,9 @@ function ItemDetail({ item }) {
                     <img src={item.image} width="50%" />
                 </div>
                 <div className='imagenSecundaria'>
-                    <img src={item.thumbnailOne} width="15%"  className='imagenPequeña'/>
-                    <img src={item.thumbnailTwo} width="15%"  className='imagenPequeña'/>
-                    <img src={item.thumbnailThree} width="15%"  className='imagenPequeña'/>
+                    <img src={item.thumbnailOne} width="15%" className='imagenPequeña' />
+                    <img src={item.thumbnailTwo} width="15%" className='imagenPequeña' />
+                    <img src={item.thumbnailThree} width="15%" className='imagenPequeña' />
                 </div>
             </div>
             <div className='texto'>

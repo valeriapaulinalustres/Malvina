@@ -1,17 +1,16 @@
 .spinner-uno {
     position: absolute;
-    color: var(--verdeClaro);
+    color: var(--amarillo);
     width: 80px;
     height: 80px;
     margin-top: 10px;
     transform: rotate(90deg);
     z-index: 2;
-
 }
 
 .spinner-dos {
     position: absolute;
-    color: var(--verdeOscuro);
+    color: var(--gris);
     width: 100px;
     height: 100px;
     z-index: -1;
@@ -20,12 +19,11 @@
 
 .spinner-tres {
     position: absolute;
-    color: var(--verdeAgua);
+    color: var(--celeste);
     width: 60px;
     height: 60px;
     margin-top: 20px;
     z-index: 4;
-
 }
 
 .spinner-container {

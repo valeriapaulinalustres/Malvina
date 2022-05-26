@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './navBar.css';
-import {gsap} from 'gsap';
+import { gsap } from 'gsap';
 
 
 function NavBar() {
@@ -24,26 +24,17 @@ function NavBar() {
       }
       : {
         color: '#fff',
-
       }
 
-      
 
   return (
-    <div className= 'navBar' >
-      
-      <nav className= 'opcionesMenu'>
-        <NavLink to="/" className= 'opcionesMenuSeccion' style={styleLinks} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>HOME</NavLink>
-        <NavLink to="/shop" className= 'opcionesMenuSeccion' style={styleLinks}  onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>SHOP</NavLink>
-        <NavLink to="/about" className= 'opcionesMenuSeccion' style={styleLinks} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>ABOUT US</NavLink>
-        <NavLink to="/contact" className= 'opcionesMenuSeccion' style={styleLinks} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>CONTACT</NavLink>        
-
+    <div className='navBar' >
+      <nav className='opcionesMenu'>
+        <NavLink to="/" className='opcionesMenuSeccion' style={styleLinks} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>HOME</NavLink>
+        <NavLink to="/shop" className='opcionesMenuSeccion' style={styleLinks} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>SHOP</NavLink>
+        <NavLink to="/about" className='opcionesMenuSeccion' style={styleLinks} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>ABOUT US</NavLink>
+        <NavLink to="/contact" className='opcionesMenuSeccion' style={styleLinks} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>CONTACT</NavLink>
       </nav>
-      
-      
-
-      
-
     </div>
   )
 }

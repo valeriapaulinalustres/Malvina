@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import Loading from "../Loading/Loading.js";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from 'react-router-dom';
-import './itemDetailContainer.css';
 import { db } from "../firebase/firebase.js";
 import { collection, doc, getDoc } from "firebase/firestore";
 
@@ -13,7 +12,6 @@ function ItemDetailContainer() {
     const [loading, setLoading] = useState(true);
     const { id } = useParams()
     const [item, setItem] = useState([]);
-
 
     useEffect(() => {
         const productsCollection = collection(db, "MalvinaCollection");

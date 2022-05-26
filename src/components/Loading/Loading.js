@@ -12,10 +12,3 @@ function Loading() {
     );
 }
 export default Loading;
-
-/*
-Gaby: dejo el link para que nos acordemos por si lo queremos customizar:
-https://react-bootstrap.netlify.app/components/spinners/#spinners
-https://reactstrap.github.io/?path=/docs/components-spinner--spinner
-
-*/

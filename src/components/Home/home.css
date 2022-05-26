@@ -1,34 +1,29 @@
 *
-.logo{
-   /* content: url(/src/components/img/logo_small.png);*/
-    /*display: flex;*/
+.logo {
     position: relative;
-
     width: 18%;
     margin-top: 3%;
     margin-left: 41%;
     margin-bottom: 2%;
-
 }
 
-.home{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #7B6B6F ;
+.home {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7B6B6F;
     text-align: center;
-
-
-
 }
-.slogan{
+
+.slogan {
     margin-bottom: 2%;
     text-align: center;
 }
-.carousel{
+
+.carousel {
     width: 50%;
     margin: auto;
-   
+
 }
 
-.home-container{
+.home-container {
     margin-top: 40px;
 }

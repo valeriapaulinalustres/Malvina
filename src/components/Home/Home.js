@@ -9,48 +9,43 @@ import Carousel from "../Carousel/Carousel"
 
 
 function Home() {
-  
+
   const [sales, setSales] = useState([]);
   const [loading, setLoading] = useState(true);
-  
 
-
-useEffect(() => {
-  const productsCollection = collection(db, "MalvinaCollection");
-  const q = query(productsCollection, where("sale", "==", true));
-  getDocs(q)
+  useEffect(() => {
+    const productsCollection = collection(db, "MalvinaCollection");
+    const q = query(productsCollection, where("sale", "==", true));
+    getDocs(q)
       .then((result) => {
-          const docs = result.docs
-          const lista = docs.map(producto => {
-              const id = producto.id;
-              const product = {
-                  id,
-                  ...producto.data()
-              }
-              return product;
-          })
-          setSales(lista)
+        const docs = result.docs
+        const lista = docs.map(producto => {
+          const id = producto.id;
+          const product = {
+            id,
+            ...producto.data()
+          }
+          return product;
+        })
+        setSales(lista)
       })
       .catch(() => {
-          console.log("error")
+        console.log("error")
       })
       .finally(() => {
-          setLoading(false)
+        setLoading(false)
       })
-}, []);
-
+  }, []);
 
   return (
     <div className='home-container'>
-     
-      
-      <Carousel className="carousel"/>
+      <Carousel className="carousel" />
       <div className='logo'></div>
       <h2 className='slogan'>UNA MALVINA, MIL USOS</h2>
-                {loading
-                    ? (<Loading />)
-                    : (<ItemList filtered={sales} />)
-                }
+      {loading
+        ? (<Loading />)
+        : (<ItemList filtered={sales} />)
+      }
     </div>
   )
 }
