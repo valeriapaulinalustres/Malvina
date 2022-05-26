@@ -11,7 +11,7 @@ function Carousel() {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src="https://cdn.pixabay.com/photo/2019/05/28/00/13/surfer-4234061__340.jpg" className="d-block w-100" alt="..." />
+                    <img src="https://media.istockphoto.com/photos/smiling-surfer-using-smartphone-picture-id642333286?k=20&m=642333286&s=612x612&w=0&h=SGgCQWqYkcH8w-FWbj4tz313yIoqIQ3rqmsr7KTdgWY=" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
                     <img src="https://cdn.pixabay.com/photo/2016/08/22/10/04/traveler-1611614__480.jpg" className="d-block w-100" alt="..." />
