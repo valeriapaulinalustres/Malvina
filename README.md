@@ -15,8 +15,6 @@
 
 -GSAP
 
-
-
 <h3 align="left">Puedes visitar la App aquí:</h3>
 
 https://malvina.vercel.app/

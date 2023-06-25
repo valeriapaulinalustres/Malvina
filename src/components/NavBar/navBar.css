@@ -1,22 +1,22 @@
 .navBar {
-    padding: 35px;
-    background-color: black;
+  padding: 35px;
+  background-color: black;
 }
 
 .opcionesMenu {
-    position: relative;
-    text-align: right;
+  position: relative;
+  text-align: right;
 }
 
 .opcionesMenuSeccion {
-    margin: 2%;
-    padding: 5px;
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    color: white;
+  margin: 2%;
+  padding: 5px;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  color: white;
 }
 
 .opcionesMenuSeccion:hover {
-    color: var(--amarillo);
+  color: var(--amarillo);
 }

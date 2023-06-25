@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB_vk1vf2gUJ85pqorwEVJIxtZVOh6BU7Y",
-    authDomain: "malvina-89430.firebaseapp.com",
-    projectId: "malvina-89430",
-    storageBucket: "malvina-89430.appspot.com",
-    messagingSenderId: "116755144024",
-    appId: "1:116755144024:web:5b53d7cc0f0790c46cd92d"
+  apiKey: "AIzaSyB_vk1vf2gUJ85pqorwEVJIxtZVOh6BU7Y",
+  authDomain: "malvina-89430.firebaseapp.com",
+  projectId: "malvina-89430",
+  storageBucket: "malvina-89430.appspot.com",
+  messagingSenderId: "116755144024",
+  appId: "1:116755144024:web:5b53d7cc0f0790c46cd92d",
 };
 
 // Initialize Firebase

@@ -1,60 +1,56 @@
 .footer {
-    padding: 30px;
-    background-color: black;
+  padding: 30px;
+  background-color: black;
 }
 
 .seccionesFooter {
-    display: inline-block;
-    text-align: left;
-    padding: 2%;
-    margin-left: 3%;
+  display: inline-block;
+  text-align: left;
+  padding: 2%;
+  margin-left: 3%;
 }
 
 .seccionesFooterLink {
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-    color: white;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  color: white;
 }
 
 .seccionesFooterLink:hover {
-    color: var(--amarillo);
+  color: var(--amarillo);
 }
 
 .seccionShop {
-    display: table-footer-group;
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-    color: white;
-
+  display: table-footer-group;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  color: white;
 }
 
 .seccionShop:hover {
-    color: var(--amarillo);
-
+  color: var(--amarillo);
 }
 
 .malvina {
-    margin-left: 250%;
-    margin-top: 10px;
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: xx-large;
-    color: white;
+  margin-left: 250%;
+  margin-top: 10px;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  color: white;
 }
 
-@media only screen and (max-width:500px) {
-    .footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    }
+@media only screen and (max-width: 500px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
 
-    .malvina {
-        margin-left: 100%;
-
-    }
-
+  .malvina {
+    margin-left: 100%;
+  }
 }

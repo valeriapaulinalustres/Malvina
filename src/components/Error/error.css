@@ -1,13 +1,13 @@
-.error{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.error-text{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    color: black;
-    margin-top: 10px;
+.error-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
 }
